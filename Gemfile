@@ -4,8 +4,8 @@ gem 'rails', '3.1.1'
 gem 'rspec-rails', :group => [:development, :test]
 gem 'database_cleaner', '~> 0.6.7', :group => :test
 gem 'factory_girl_rails', :group => :test
-gem 'cucumber-rails'
-gem 'capybara'
+gem 'cucumber-rails', :group => :test
+gem 'capybara', :group => :test
 gem 'devise'
 
 # Bundle edge Rails instead:
